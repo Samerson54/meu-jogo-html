@@ -1,0 +1,61 @@
+body{
+    background: radial-gradient(pink, blue);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clickBtn{
+    background-color: rgb(2, 190, 2);
+    padding: 20%;
+    border-radius: 20%;
+    font-size: x-large;
+    color: aliceblue;
+    border:2px solid white;
+}
+#clickBtn:hover{
+    animation: infinite;
+    transform: rotate(360deg);
+    transition: 2s;
+    background-color: rgb(77, 77, 248);
+    padding: 25%;
+    box-shadow: 0px 10px 15px 10px white;
+    border: 2px double ;
+ margin-top: 20px;
+ text-shadow: 0px 10px 5px black;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#upgradeBtn{
+    border-radius: 30px;
+    padding: 10px;
+}
+#upgradeBtn:hover{
+    background-color: red;
+    transition: 1s;
+    padding: 20px;
+    color: aliceblue;
+}
+
+#pontosEl{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+#upgradeInfoEl{
+    background-color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    font-size: larger;
+}
